@@ -1,0 +1,31 @@
+apply plugin: 'com.android.application' //声明是 Android 应用程序还是库模块
+apply plugin: 'kotlin-android'
+
+android {//配置项目构建的各种属性，compileSDKVersion 用于指定项目的变异 SDK  版本， buildToolsVersion 用户指定项目构建工具的版本。
+  compileSdkVersion 27
+  buildToolsVersion '28.0.3'
+
+  defaultConfig {//默认配置、应用程序包名、最小sdk版本、目标sdk版本、版本号、版本名称；
+    applicationId 'com.sqisland.espresso.toolbartitle'
+    minSdkVersion 14
+    targetSdkVersion 27
+    versionCode 1
+    versionName '1.0.0' // 版本名，显示给用户看到的版本号
+    testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+  }
+  buildTypes {//指定生成安装文件的配置
+    release {
+      minifyEnabled false //// 是否对代码进行混淆，true表示混淆
+      proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'// proguard-android.txt指所有项目通用的混淆规则，proguard-rules.pro当前项目特有的混淆规则
+      // release的Proguard默认为Module下的proguard-rules.pro文件
+    }
+  }
+}
+
+dependencies {//指定当前项目的所有以来关系，本地依赖，库依赖以及远程依赖；
+  implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+  // 远程依赖，com.android.support是域名部分，appcompat-v7是组名称，27.1.1是版本号
+  implementation 'com.android.support:appcompat-v7:27.1.1'
+  testImplementation 'junit:junit:4.12'
+  androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}

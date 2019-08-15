@@ -1,0 +1,4 @@
+#Wed Aug 14 17:08:55 CST 2019
+base.0=C\:\\Users\\tannnzhu\\espresso_repo\\toolbar_title\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\5
+path.0=classes.dex
+renamed.0=classes.dex
