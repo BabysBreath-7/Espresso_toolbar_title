@@ -7,7 +7,7 @@ android {//配置项目构建的各种属性，compileSDKVersion 用于指定项
 
   defaultConfig {//默认配置、应用程序包名、最小sdk版本、目标sdk版本、版本号、版本名称；
     applicationId 'com.sqisland.espresso.toolbartitle'
-    minSdkVersion 14
+    minSdkVersion 15
     targetSdkVersion 27
     versionCode 1
     versionName '1.0.0' // 版本名，显示给用户看到的版本号
@@ -28,4 +28,5 @@ dependencies {//指定当前项目的所有以来关系，本地依赖，库依�
   implementation 'com.android.support:appcompat-v7:27.1.1'
   testImplementation 'junit:junit:4.12'
   androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    androidTestImplementation 'com.android.support.test:rules:1.0.2'
 }
