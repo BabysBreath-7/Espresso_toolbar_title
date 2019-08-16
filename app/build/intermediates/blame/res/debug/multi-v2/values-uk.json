@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\tannnzhu\\espresso_repo\\toolbar_title\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-uk\\values-uk.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\tannnzhu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\db3d1e5e8124dac8a2b073c5b6b0c371\\res\\values-uk\\values-uk.xml",
+                    "source": "C:\\Users\\tannnzhu\\.gradle\\caches\\transforms-2\\files-2.1\\8ebf90baecb5645deb2c59e928677e07\\res\\values-uk\\values-uk.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\tannnzhu\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\0bd000c8c316b42bacbb2bd686df3915\\res\\values-uk\\values-uk.xml",
+                    "source": "C:\\Users\\tannnzhu\\.gradle\\caches\\transforms-2\\files-2.1\\3d0d9f6c0988628c76653ee25f6753b5\\res\\values-uk\\values-uk.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

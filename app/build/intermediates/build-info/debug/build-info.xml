@@ -5,44 +5,47 @@
     build-mode="FULL"
     density="420dpi"
     format="10"
-    plugin-version="3.0.1"
-    timestamp="1565773710333"
+    plugin-version="3.4.2"
+    timestamp="1565923735300"
     token="-5249815831610662877"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="2121" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="190" />
+        duration="206" />
     <task
         name="verifier"
-        duration="202" />
+        duration="257" />
 
     <artifact
+        location="C:\Users\tannnzhu\espresso_repo\toolbar_title\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+        type="SPLIT" />
+    <artifact
         location="C:\Users\tannnzhu\espresso_repo\toolbar_title\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\tannnzhu\espresso_repo\toolbar_title\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\tannnzhu\espresso_repo\toolbar_title\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\tannnzhu\espresso_repo\toolbar_title\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\tannnzhu\espresso_repo\toolbar_title\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        location="C:\Users\tannnzhu\espresso_repo\toolbar_title\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\tannnzhu\espresso_repo\toolbar_title\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\tannnzhu\espresso_repo\toolbar_title\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\tannnzhu\espresso_repo\toolbar_title\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\tannnzhu\espresso_repo\toolbar_title\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        location="C:\Users\tannnzhu\espresso_repo\toolbar_title\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\tannnzhu\espresso_repo\toolbar_title\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
@@ -57,33 +60,36 @@
         location="C:\Users\tannnzhu\espresso_repo\toolbar_title\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\tannnzhu\espresso_repo\toolbar_title\app\build\outputs\apk\debug\app-debug.apk"
+        location="C:\Users\tannnzhu\espresso_repo\toolbar_title\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1565773710333"
+        timestamp="1565923735300"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
+            location="C:\Users\tannnzhu\espresso_repo\toolbar_title\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+            type="SPLIT" />
+        <artifact
             location="C:\Users\tannnzhu\espresso_repo\toolbar_title\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\tannnzhu\espresso_repo\toolbar_title\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\tannnzhu\espresso_repo\toolbar_title\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\tannnzhu\espresso_repo\toolbar_title\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\tannnzhu\espresso_repo\toolbar_title\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="C:\Users\tannnzhu\espresso_repo\toolbar_title\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\tannnzhu\espresso_repo\toolbar_title\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\tannnzhu\espresso_repo\toolbar_title\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\tannnzhu\espresso_repo\toolbar_title\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\tannnzhu\espresso_repo\toolbar_title\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="C:\Users\tannnzhu\espresso_repo\toolbar_title\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\tannnzhu\espresso_repo\toolbar_title\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
@@ -98,7 +104,7 @@
             location="C:\Users\tannnzhu\espresso_repo\toolbar_title\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\tannnzhu\espresso_repo\toolbar_title\app\build\outputs\apk\debug\app-debug.apk"
+            location="C:\Users\tannnzhu\espresso_repo\toolbar_title\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
 
